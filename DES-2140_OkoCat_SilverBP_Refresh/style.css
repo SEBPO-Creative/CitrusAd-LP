@@ -32,9 +32,9 @@ body {
 .citrusX-wrapper::-webkit-scrollbar,
 .citrusOkocat__CategoryContainer::-webkit-scrollbar,
 .citrusOkocat__category::-webkit-scrollbar,
-.citrusOkocat__findCatRecipesContainer::-webkit-scrollbar, 
+.citrusOkocat__findCatRecipesContainer::-webkit-scrollbar,
 .citrusOkocat__productContainer::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 /* POV or Banner styling */
@@ -151,7 +151,8 @@ body {
 
 .citrus_Okocat_carousel-inner .pov1 {
     background-image: url("img/citrusOkocat_Desktop-POV1.png");
-    
+
+
 }
 
 .citrus_Okocat_carousel-inner .pov2 {
@@ -279,31 +280,56 @@ body {
 }
 
 @media screen and (max-width:1290px) {
-    .pov-text{
-        max-width: 38%!important;
+    .pov-text {
+        max-width: 38% !important;
     }
 }
 
 @media screen and (max-width:1200px) {
     .citrus_Okocat_carousel-item {
-        background-position: 0 0 center;
+        /* background-position: 0 0 center; */
+        background-position: right;
+        margin-right: -3%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .citrus_Okocat_carousel-item {
+        margin-right: -2%;
     }
 }
 
 
 
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text {
-        padding: 15px 15px 15px 20px;
-    } */
+    .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text {
+        padding-left: 2%;
+    }
 
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__title {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 10px 0;
     }
 
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__subhead {
         font-size: 14px;
         padding-bottom: 0;
+    }
+    .pov2 p.citrusOkocat__disclaimer {
+        margin: 5px 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .Okocatpet-flex.pov-cta a {
+        color: #fff;
+        border: 0;
+        text-decoration: none;
+        height: 100%;
+        width: max-content;
+        background: unset;
+        color: #001952;
+        text-decoration: underline;
     }
 }
 
@@ -668,6 +694,7 @@ Responsive styles
 }
 
 @media all and (max-width: 476px) {
+
     /* .citrusOkocat__cardBody {
         width: 248px;
     } */
