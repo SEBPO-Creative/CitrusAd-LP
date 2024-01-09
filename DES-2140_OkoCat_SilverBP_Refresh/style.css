@@ -746,9 +746,9 @@ Responsive styles
         max-width: 100% !important;
     }
 
-    /* .citrusOkocat__cardBody {
-        width: 248px;
-    } */
+    .citrusOkocat__cardBody {
+        width: 195px;
+    }
     .citrusOkocat__categoryRow {
         width: 705px;
     }
