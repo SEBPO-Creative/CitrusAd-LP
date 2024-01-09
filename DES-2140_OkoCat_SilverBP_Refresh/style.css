@@ -570,10 +570,9 @@ h2.citrusOkocat__sectionTitle {
 }
 
 .citrusOkocat__cardCTA a {
-    font-family: "PetcoCircularTT-Regular", arial !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 16px;
     line-height: 22px;
-    font-weight: bold;
     color: #001952;
     text-decoration: underline;
     text-transform: capitalize;
@@ -681,6 +680,7 @@ Responsive styles
         height: fit-content;
         text-transform: capitalize;
         text-decoration: underline;
+        padding-bottom: 40px;
     }
 
     h2.citrusOkocat__sectionTitle {
@@ -708,7 +708,10 @@ Responsive styles
     .citrusOkocat__footerRow {
         display: flex;
         flex-direction: column;
+        grid-gap: unset;
     }
+
+    
 
     .citrusOkocat__footerCol.order1 {
         order: 2;
