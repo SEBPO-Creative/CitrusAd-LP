@@ -112,7 +112,8 @@ body {
     line-height: normal;
     font-weight: 700;
     font-family: "PetcoCircularTT-Bold", arial !important;
-    color: #001952;
+    /* color: #001952; */
+    color: black;
     margin: 0;
 }
 
@@ -121,7 +122,8 @@ body {
     line-height: normal;
     width: 100%;
     font-family: "PetcoCircularTT-Regular", arial !important;
-    color: #00205b;
+    /* color: #00205b; */
+    color: black;
     margin: 0;
 }
 
@@ -533,6 +535,13 @@ h2.citrusOkocat__sectionTitle {
     text-align: center;
 }
 
+/* .citrusOkocat__productCard .citrusOkocat__cardImg img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+} */
+
+
 .citrusOkocat__cardBody {
     padding-top: 20px;
     /* width: 270px; */
@@ -546,10 +555,12 @@ h2.citrusOkocat__sectionTitle {
     font-weight: bold;
     color: #212529;
     height: 40px;
+    margin-bottom: 15px;
 }
 
 .citrusOkocat__cardBody p {
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 25px;
     height: 50px;
     font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 16px;
@@ -575,7 +586,7 @@ h2.citrusOkocat__sectionTitle {
 /* footer style */
 .citrusOkocat__footer {
     margin-top: 90px;
-    /* margin-bottom: 60px; */
+    margin-bottom: 40px;
     width: 100%;
     max-width: 100%;
     background: #6edcfa20;
