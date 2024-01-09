@@ -705,12 +705,16 @@ Responsive styles
     } */
 
     /* footer style */
+    .citrusOkocat__footer {
+        margin-top: 0;
+    }
     .citrusOkocat__footerRow {
         display: flex;
         flex-direction: column;
         grid-gap: unset;
     }
 
+    
     
 
     .citrusOkocat__footerCol.order1 {
@@ -731,9 +735,9 @@ Responsive styles
 }
 
 @media screen and (max-width:767px) {
-    .citrusOkocat__footer {
-        margin-top: 40px ;
-    }
+    /* .citrusOkocat__footer {
+        margin-top: 0 ;
+    } */
 
     .citrusOkocat__footerRow {
         grid-gap: 0;
