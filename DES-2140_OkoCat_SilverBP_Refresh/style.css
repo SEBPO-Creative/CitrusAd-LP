@@ -820,11 +820,19 @@ Responsive styles
 /** youtube video **/
 
 
-@media all and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .citrusOkocat__iframe iframe
     {
         height: 268px;
     }
+    .citrusOkocat__footerText h2.citrusOkocat__sectionTitle {
+        max-width: 400px;
+    }
+    .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__subhead
+    {
+        max-width: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
