@@ -351,8 +351,20 @@ body {
         width: max-content;
         background: unset;
         color: #001952;
+        text-transform: capitalize;
         text-decoration: underline;
     }
+     /* POV styling */
+     .citrusOkocat__footerCTA button {
+        color: #001952;
+        background: none;
+        width: fit-content;
+        height: fit-content;
+        text-transform: capitalize;
+        text-decoration: underline;
+        padding-bottom: 40px;
+    }
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -394,6 +406,7 @@ body {
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__subhead {
         text-align: center;
         font-size: 16px;
+        line-height: 22px;
         padding-bottom: 0;
     }
 
@@ -432,7 +445,8 @@ body {
 
     p.citrusOkocat__disclaimer {
         margin: 10px 0 20px 0;
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 14px;
         text-align: center;
     }
 
@@ -569,15 +583,47 @@ h2.citrusOkocat__sectionTitle {
     font-weight: normal;
 }
 
-.citrusOkocat__cardCTA a {
-    font-family: "PetcoCircularTT-Bold", arial !important;
-    font-size: 16px;
-    line-height: 22px;
-    color: #001952;
-    text-decoration: underline;
-    text-transform: capitalize;
+.citrusOkocat__cardCTA .citrusOkocat__cardBTN {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #001952;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 22px;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-transform: capitalize;
+  border: none;
+
+}
+.citrusOkocat__cardCTA .citrusOkocat__cardBTN:active {
+    outline: 0;
 }
 
+.citrusOkocat__cardCTA .citrusOkocat__cardBTN:focus {
+    outline: 0;
+}
+
+.citrusOkocat__cardCTA .citrusOkocat__cardBTN:hover {
+    outline: 0;
+}
+.citrusOkocat__cardCTA .citrusOkocat__cardBTN:focus-visible {
+    outline: 0;
+} 
 /* ----------------------------------
 
 -------------------------------------*/
@@ -642,6 +688,7 @@ p.citrusOkocat__disclaimer {
     font-family: "petcoCircularTT-Regular", arial !important;
     font-size: 12px;
     color: #000;
+    max-width: 350px;
 }
 
 /********************* 
@@ -761,5 +808,51 @@ Responsive styles
 @media screen and (max-width:375px) {
     .citrusOkocat__categoryRow {
         width: 685px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__title {
+        font-size: 21px;
+    }
+    .d-hide{
+        display: none !important;
+    }
+}
+
+/** youtube video **/
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .citrusOkocat__iframe iframe
+    {
+        height: 268px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .citrusOkocat__iframe iframe
+    {
+        height: 432px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .citrusOkocat__iframe iframe
+    {
+        height: 238px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .citrusOkocat__iframe iframe
+    {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .citrusOkocat__iframe iframe
+    {
+        height: 180px;
     }
 }
