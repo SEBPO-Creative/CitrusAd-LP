@@ -815,9 +815,6 @@ Responsive styles
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__title {
         font-size: 21px;
     }
-    .d-hide{
-        display: none !important;
-    }
 }
 
 /** youtube video **/
