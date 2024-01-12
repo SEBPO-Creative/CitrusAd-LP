@@ -419,6 +419,9 @@ h2.citrusFancy__feast__sectionTitle sup {
   top: -0.5em;
   vertical-align: baseline;
 }
+h2.citrusFancy__feast__sectionTitle span.nobr {
+  white-space: nowrap;
+}
 .citrusFancy__feast__sectionCTAgap {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -881,7 +884,7 @@ h2.citrusFancy__feast__sectionTitle sup {
 
   /* product */
   .citrusFancy__feast__productScroller .citrusFancy__feast__sectionTitle {
-    padding-bottom: 0;
+    padding: 0 15px;
   }
 
   .citrusFancy__feast__row:first-child {
