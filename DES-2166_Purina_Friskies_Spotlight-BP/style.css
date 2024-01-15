@@ -40,12 +40,14 @@ body {
 
 .citrusFriskies__sectionTitle {
   margin: 0;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 900;
   font-size: 25px;
   text-align: center;
   color: #000000;
   padding-bottom: 30px !important;
+  padding-left: 30px  !important;
+  padding-right: 30px  !important;
 }
 
 
@@ -71,7 +73,7 @@ body {
 .citrusFriskies__sectionSubhead {
   text-align: center;
   font-size: 16px;
-  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-family: "petcocircular-regular", arial !important;
   color: black;
   padding-bottom: 10px !important;
 }
@@ -90,7 +92,7 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 900;
   margin: 0 auto;
 }
@@ -308,7 +310,7 @@ body {
 }
 
 .citrusFriskies-tab-card p {
-  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-family: "petcocircular-regular", arial !important;
   color: #333333;
   font-size: 16px;
   line-height: 22px;
@@ -331,7 +333,7 @@ body {
   padding-left: 0;
   background: none;
   text-decoration: underline;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   color: #001952;
   font-size: 16px;
   line-height: 22px;
@@ -397,7 +399,7 @@ body {
 
 .groupCtaDimention p {
   line-height: 18px;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   color: #001952;
   margin-top: 0;
 }
@@ -418,7 +420,7 @@ body {
   border-bottom: 10px solid transparent;
   cursor: pointer;
   color: #9b9b9b;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 700;
   line-height: 1.3;
   text-align: center;
