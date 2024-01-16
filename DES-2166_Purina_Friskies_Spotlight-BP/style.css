@@ -179,13 +179,10 @@ body {
 .citrusFriskies__logo img {
   width: 100%;
   max-width: 132px;
-  /* max-width: 200px; */
 }
 
 .citrusFriskies__heroCopy h1 {
   font-family: "PetcoCircular-Bold", arial !important;
-  /* font-size: 36px;
-  line-height: 36px; */
   font-size: 45px;
   line-height: 45px;
   font-weight: 900;
@@ -205,7 +202,6 @@ body {
 .citrusFriskies__hero-rightCTA a {
   display: block;
   width: 170px;
-  /* height: 50px; */
   background: #fff;
   font-family: "PetcoCircular-Bold", arial !important;
   font-size: 16px;
@@ -220,7 +216,6 @@ body {
 
 .citrusFriskies__petcoBadge {
   width: 6% !important;
-  /* height: 10% !important; */
   position: absolute;
   right: 9%;
   top: 20%;
@@ -247,10 +242,6 @@ body {
     gap: 25px;
   }
 
-  /* .citrusFriskies__logo img {
-    max-width: 120px;
-  } */
-
   .citrusFriskies__heroCopy h1 {
     padding-bottom: 50px;
     font-size: 32px;
@@ -263,10 +254,6 @@ body {
   .citrusFriskies__heroImage-copy {
     top: -3%;
   }
-
-  /* .citrusFriskies__logo img {
-    max-width: 160px;
-} */
 
   .citrusFriskies__heroCopy h1 {
     font-size: 28px;
@@ -358,7 +345,6 @@ body {
 
   .citrusFriskies__petcoBadge {
     width: 15% !important;
-    /* height: 10% !important; */
     position: absolute;
     right: 10%;
     bottom: 20%;
@@ -488,11 +474,22 @@ body {
   color: #000;
 }
 
+@media screen and (min-width:1101px)  and (max-width: 1150px) {
+  .citrusFriskies__productContainer{
+    max-width: 98%;
+  }
+}
+
 
 @media screen and (max-width: 1100px) {
-
   .citrusFriskies__row {
     padding: 0 30px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+  .citrusFriskies__product-card03{
+    padding-right: 15px;
   }
 }
 
@@ -510,7 +507,6 @@ body {
   }
 
   .citrusFriskies__card-body {
-    /* margin: 20px 0 23px 20px; */
     margin: 20px 0 0 20px;
   }
 
