@@ -104,9 +104,9 @@ body {
 }
 
 @media screen and (max-width:375px) {
-  .citrusFriskies__sectionTitle{
-    padding-left:0 !important;
-    padding-right: 0!important;
+  .citrusFriskies__sectionTitle {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
@@ -127,8 +127,8 @@ body {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.citrusFriskies__productCarousel-wrapper, 
-.citrusFriskies__product, 
+.citrusFriskies__productCarousel-wrapper,
+.citrusFriskies__product,
 .citrusFriskies__productContainer {
   -ms-overflow-style: none;
   /* IE and Edge */
@@ -226,9 +226,14 @@ body {
   top: 20%;
 }
 
-@media screen and (max-width:1320px) {
+@media screen and (max-width:1400px) {
   .citrusFriskies__hero-copy-center {
-    gap: 0;
+    gap: 25px;
+  }
+
+  .citrusFriskies__heroCopy h1 {
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .citrusFriskies__logo img {
@@ -237,7 +242,7 @@ body {
 }
 
 
-@media screen and (max-width:1206px) {
+@media screen and (max-width:1300px) {
   .citrusFriskies__hero-copy-center {
     gap: 25px;
   }
@@ -262,6 +267,7 @@ body {
   /* .citrusFriskies__logo img {
     max-width: 160px;
 } */
+
   .citrusFriskies__heroCopy h1 {
     font-size: 28px;
     line-height: 28px;
@@ -272,6 +278,12 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .citrusFriskies__hero-copy-center {
+    column-gap: 15px;
   }
 }
 
