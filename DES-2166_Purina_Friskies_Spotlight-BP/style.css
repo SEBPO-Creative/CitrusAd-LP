@@ -237,7 +237,7 @@ body {
   }
 
   .citrusFriskies__logo img {
-    max-width: 100px;
+    max-width: 120px;
   }
 }
 
@@ -247,9 +247,9 @@ body {
     gap: 25px;
   }
 
-  .citrusFriskies__logo img {
+  /* .citrusFriskies__logo img {
     max-width: 120px;
-  }
+  } */
 
   .citrusFriskies__heroCopy h1 {
     padding-bottom: 50px;
