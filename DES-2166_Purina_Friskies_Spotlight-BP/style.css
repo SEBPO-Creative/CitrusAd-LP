@@ -364,7 +364,7 @@ body {
 @media all and (min-width: 476px) and (max-width: 768px) {
   .citrusFriskies__heroCopy h1 {
     font-size: 36px;
-    line-height: 36px;
+    line-height: 40px;
     text-align: center;
   }
 
