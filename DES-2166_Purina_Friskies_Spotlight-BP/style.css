@@ -120,13 +120,16 @@ body {
 
 /* Overflow Scrollbar */
 .citrusFriskies-wrapper::-webkit-scrollbar,
+.citrusFriskies__product::-webkit-scrollbar,
 .citrusFriskies__productContainer::-webkit-scrollbar,
 .citrusFriskies__productCarousel-wrapper::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.citrusFriskies__productCarousel-wrapper {
+.citrusFriskies__productCarousel-wrapper, 
+.citrusFriskies__product, 
+.citrusFriskies__productContainer {
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
