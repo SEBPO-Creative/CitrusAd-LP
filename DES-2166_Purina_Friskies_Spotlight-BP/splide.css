@@ -373,3 +373,10 @@
     top: 0;
   }
   /* End Splide CSS */
+
+
+  @media screen and (max-width:768px) {
+    .splide__track--draggable{
+      padding-right: 20px !important;
+    }
+  }
