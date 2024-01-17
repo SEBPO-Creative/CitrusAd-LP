@@ -1,3 +1,18 @@
+/* Importing Petco Circular Font from Petco Website */
+@font-face {
+  font-family: 'PetcoCircular-Regular';
+  src: url('https://www.petco.com/assets/fonts/PetcoCircular-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'PetcoCircular-Bold';
+  src: url('https://www.petco.com/assets/fonts/PetcoCircular-Bold.woff2') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  }
+
 /* Start Custom CSS */
 /* Universal styles */
 body {
@@ -41,8 +56,8 @@ body {
 .citrusFriskies__sectionTitle {
   margin: 0;
   font-family: "PetcoCircular-Bold", arial !important;
-  font-weight: 900;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 20px;
   text-align: center;
   color: #000000;
   padding-bottom: 30px !important;
@@ -98,7 +113,16 @@ body {
 @media screen and (max-width:767px) {
   .citrusFriskies__sectionTitle {
     font-size: 20px;
+    max-width: 350px;
+    margin: 0 auto !important;
   }
+  .citrusFriskies__wrapper a:hover {
+      text-decoration: underline;
+  }
+  .citrusFriskies__main-tab-content {
+    padding: 0 15px !important;
+  }
+
 }
 
 @media screen and (max-width:375px) {
@@ -157,7 +181,7 @@ body {
 
 .citrusFriskies__heroImage-copy {
   position: absolute;
-  width: 90%;
+  width: 94%;
   height: 100%;
   top: 0;
   display: flex;
@@ -169,7 +193,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .citrusFriskies__logo img {
@@ -375,7 +399,7 @@ body {
 
 @media screen and (max-width:425px) {
   .citrusFriskies__heroCopy h1 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 }
 
@@ -527,6 +551,13 @@ body {
   }
 }
 
+@media screen and (max-width:320px) {
+  .citrusFriskies__heroCopy h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   /* Educational Mode */
   .citrusFriskies__row:first-child {
@@ -557,6 +588,10 @@ body {
   overflow-x: auto;
 }
 
+.citrusFriskies__main-tab-content {
+  padding: 0 30px;
+}
+
 .citrusFriskiesTabId {
   width: 100%;
   overflow-x: auto;
@@ -568,12 +603,16 @@ body {
 
 .citrusFriskies__tab-container {
   max-width: 1253px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .splide__pagination {
   display: none;
+}
+
+.citrusFriskies-tab-card {
+  padding: 30px 0 0;
 }
 
 .citrusFriskies__Product {
@@ -586,7 +625,7 @@ body {
 
 .citrusFriskies-tab-cardImg img {
   max-width: 100%;
-  max-height: 175px;
+  max-width: 190px;
 }
 
 .citrusFriskies-tab-card>a {
@@ -600,7 +639,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   text-align: left;
-  margin: 20px 0 10px;
+  margin: 20px 0 14px;
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -728,7 +767,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px;
-  border-bottom: 1px solid #021b4e;
+  border-bottom: 1px solid #001952;
 }
 
 /* hide arrow */
@@ -737,9 +776,7 @@ body {
 }
 
 @media all and (max-width: 1301px) {
-  .citrusFriskies__tab-container {
-    width: 90%;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -767,7 +804,12 @@ body {
 @media all and (max-width: 575px) {
   .citrusFriskies__tab_item {
     margin: 0;
-    width: 50%;
+    width: calc(100%/2 - 30px);
+    padding: 7px 20px 12px;
+  }
+
+  .citrusFriskies__sectionCTAgap {
+    padding: 35px 0;
   }
 
   .citrusFriskies__Product {

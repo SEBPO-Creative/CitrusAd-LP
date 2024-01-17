@@ -154,8 +154,8 @@
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background: transparent;
-    border: 1px solid #122359;
+    background: #fff;
+    border: 1px solid #001952;
     border-radius: 50%;
     cursor: pointer;
     display: -ms-flexbox;
