@@ -50,7 +50,6 @@ body {
   padding-right: 30px !important;
 }
 
-
 .citrusFriskies__wrapper img {
   width: 100%;
 }
@@ -68,7 +67,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 .citrusFriskies__sectionSubhead {
   text-align: center;
@@ -135,7 +133,6 @@ body {
   scrollbar-width: none;
   /* Firefox */
 }
-
 /* End Universal CSS */
 
 /* Custom CSS */
@@ -172,7 +169,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 2.2rem; */
   gap: 15px;
 }
 
@@ -189,7 +185,6 @@ body {
   color: #fff;
   padding-bottom: 60px;
 }
-
 
 .citrusFriskies__heroCopy p {
   margin-bottom: 15px;
@@ -407,7 +402,6 @@ body {
 }
 
 
-
 /* product section three across */
 .citrusFriskies__product {
   margin-top: 30px;
@@ -495,7 +489,6 @@ body {
 
 
 @media screen and (max-width: 767px) {
-
   /* Educational Mode */
   .citrusFriskies__product-card03 {
     padding-right: 15px;
@@ -535,7 +528,6 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-
   /* Educational Mode */
   .citrusFriskies__row:first-child {
     width: 87.5%;
