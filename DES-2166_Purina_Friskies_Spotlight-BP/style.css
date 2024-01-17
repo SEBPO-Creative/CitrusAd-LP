@@ -675,13 +675,13 @@ body {
   margin: auto;
 }
 
-.groupCtaDimention {
+.citrusFriskies__groupCtaDimention {
   display: flex;
   flex-direction: column;
   font-weight: 900;
 }
 
-.groupCtaDimention p {
+.citrusFriskies__groupCtaDimention p {
   line-height: 18px;
   font-family: "PetcoCircular-Bold", arial !important;
   color: #001952;
@@ -689,7 +689,7 @@ body {
   font-weight: 900;
 }
 
-.groupCtaArrow p {
+.citrusFriskies__groupCtaArrow p {
   font-size: 34px;
   margin-top: 0;
 }
