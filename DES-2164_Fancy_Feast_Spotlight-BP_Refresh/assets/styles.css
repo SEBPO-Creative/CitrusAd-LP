@@ -530,16 +530,15 @@ h2.citrusFancy__feast__sectionTitle span.nobr {
   font-family: "PetcoCircular-Bold", arial !important;
   font-size: 62px;
   line-height: 67px;
-  font-weight: 900;
   color: #f6d330;
 }
 
 .citrusFancy__feast__heroCopy p {
   margin: 0;
-  font-family: "petcocircular-Bold", arial !important;
+  font-family: "PetcoCircular-Medium", arial !important;
   font-size: 28px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   padding: 15px 0 25px 0;
 }
@@ -622,7 +621,7 @@ h2.citrusFancy__feast__sectionTitle span.nobr {
   margin-top: 20px;
   font-size: 16px;
   line-height: 20px;
-  font-family: "petcocircular-regular", arial !important;
+  font-family: "PetcoCircular-Regular", arial !important;
   font-weight: 400;
   color: #000;
 }
@@ -630,7 +629,7 @@ h2.citrusFancy__feast__sectionTitle span.nobr {
 .citrusFancy__feast__disclaimer {
   font-size: 12px;
   line-height: 16px;
-  font-family: "petcocircular-regular", arial !important;
+  font-family: "PetcoCircular-Regular", arial !important;
   font-weight: 400;
   color: #000;
   text-align: center;
@@ -700,7 +699,7 @@ h2.citrusFancy__feast__sectionTitle span.nobr {
 }
 
 .citrusFancy__feast-tab-cardBody p {
-  font-family: petcocircular-regular, arial !important;
+  font-family: PetcoCircular-Regular, arial !important;
   color: #333;
   font-size: 13px;
   line-height: normal;

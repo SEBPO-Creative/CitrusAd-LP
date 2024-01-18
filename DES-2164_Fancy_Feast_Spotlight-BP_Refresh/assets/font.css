@@ -13,7 +13,7 @@
  */
 
 @font-face {
-  font-family: petcocircular-regular;
+  font-family: PetcoCircular-Regular;
   src: url(fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
     url(fonts/PetcoCircularTT-Regular.woff) format("woff");
 }
@@ -21,4 +21,15 @@
   font-family: PetcoCircular-Bold;
   src: url(fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
     url(fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
+
+
+/* All the Fonts from Petco.com */
+
+
+@font-face {
+  font-family: 'PetcoCircular-Medium';
+  src: url('https://www.petco.com/assets/fonts/PetcoCircular-Medium.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
 }
