@@ -13,6 +13,13 @@
   font-style: normal;
   }
 
+  @font-face {
+    font-family: 'PetcoCircular-Black';
+    src: url('https://www.petco.com/assets/fonts/PetcoCircular-Black.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
 /* Start Custom CSS */
 /* Universal styles */
 body {
@@ -105,8 +112,8 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-family: "PetcoCircular-Bold", arial !important;
-  font-weight: 900;
+  font-family: "PetcoCircular-Black", arial !important;
+  font-weight: 700;
   margin: 0 auto;
 }
 
@@ -226,10 +233,10 @@ body {
   display: block;
   width: 170px;
   background: #fff;
-  font-family: "PetcoCircular-Bold", arial !important;
+  font-family: "PetcoCircular-Black", arial !important;
   font-size: 16px;
   line-height: 52px;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
   color: #00205b;
   border: 1px solid #fff;
@@ -383,13 +390,6 @@ body {
 
 }
 
-@media screen and (min-width: 570px) and (max-width:630px) {
-  .groupProductCTA {
-    gap: 5px !important;
-    padding: 0 5px !important;
-  }
-}
-
 @media screen and (max-width:520px) {
   .citrusFriskies__heroCopy h1 {
     padding-bottom: 30px;
@@ -412,6 +412,10 @@ body {
   .citrusFriskies__hero-rightCTA {
     display: flex;
     justify-content: center;
+  }
+  .groupProductCTA {
+    gap: 5px !important;
+    padding: 0 5px !important;
   }
 }
 
@@ -674,7 +678,7 @@ body {
   padding-left: 0;
   background: none;
   text-decoration: underline;
-  font-family: "PetcoCircular-Bold", arial !important;
+  font-family: "PetcoCircular-Black", arial !important;
   color: #001952;
   font-size: 16px;
   line-height: 22px;
@@ -728,7 +732,7 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  gap: 20px;
+  gap: 10px;
   margin: auto;
   padding: 0 10px;
 }

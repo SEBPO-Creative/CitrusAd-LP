@@ -42,8 +42,8 @@ function advanceArrows(idx) {
             1140: {
                 perPage: 5,
             },
-            1200: {
-                perPage: 6,
+            1380: {
+                perPage: 5,
             },
             1440: {
                 perPage: 6,
