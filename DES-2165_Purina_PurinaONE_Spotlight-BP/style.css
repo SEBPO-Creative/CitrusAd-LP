@@ -81,7 +81,7 @@ body {
   padding-right: 30px !important;
 }
 p.citrusPurinaONE__subhead {
-  font-family: "PetcoCircular-Regular";
+  font-family: "PetcoCircular-Regular", arial !important;
   font-size: 18px;
   line-height: normal;
   font-weight: 400;
@@ -132,6 +132,7 @@ p.citrusPurinaONE__subhead {
   font-family: "PetcoCircular-Black", arial !important;
   font-weight: 700;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -161,6 +162,10 @@ p.citrusPurinaONE__subhead {
   .citrusPurinaONE__sectionTitle {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    max-width: 330px;
+  }
+  .citrusPurinaONE__sectionTitle{
+    max-width: 290px;
   }
 }
 
@@ -257,12 +262,12 @@ p.citrusPurinaONE__subhead {
   text-transform: uppercase;
 }
 
-.citrusPurinaONE__petcoBadge {
+/* .citrusPurinaONE__petcoBadge {
   width: 6% !important;
   position: absolute;
   right: 1%;
   top: 8%;
-}
+} */
 
 @media screen and (max-width: 1400px) {
   .citrusPurinaONE__heroCopy h1 {
@@ -386,13 +391,17 @@ p.citrusPurinaONE__subhead {
     text-transform: none;
   }
 
+  p.citrusPurinaONE__subhead{
+    font-size: 20px;
+  }
+/* 
   .citrusPurinaONE__petcoBadge {
     width: 15% !important;
     position: absolute;
     right: 21%;
     bottom: 20%;
     top: unset;
-  }
+  } */
 }
 
 @media all and (min-width: 476px) and (max-width: 768px) {
@@ -425,18 +434,18 @@ p.citrusPurinaONE__subhead {
 }
 
 @media screen and (max-width: 520px) {
-  .citrusPurinaONE__petcoBadge {
+  /* .citrusPurinaONE__petcoBadge {
     right: 10%;
     bottom: 22%;
-  }
+  } */
 }
 
 @media screen and (max-width: 425px) {
-  .citrusPurinaONE__petcoBadge {
+  /* .citrusPurinaONE__petcoBadge {
     width: 19% !important;
     right: 19%;
     bottom: 22%;
-  }
+  } */
 }
 
 /* product section three across */
@@ -658,7 +667,7 @@ p.citrusPurinaONE__subhead {
   -webkit-box-orient: vertical;
   max-height: 4em;
   /*standard size is 4em*/
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .citrusPurinaONE__productCTA {
@@ -672,6 +681,11 @@ p.citrusPurinaONE__subhead {
   line-height: 22px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.citrusPurinaONE__productCTA svg{
+  max-width: 37.5px;
+  padding: 0 0 7px;
 }
 
 .citrusPurinaONE__Products {
@@ -738,6 +752,7 @@ p.citrusPurinaONE__subhead {
   color: #001952;
   margin-top: 0;
   font-weight: 700;
+  font-size: 20px;
 }
 
 .citrusPurinaONE__groupCtaArrow p {
