@@ -122,7 +122,7 @@ p.citrusPurinaONE__subhead {
   border: none;
   border-radius: 5px;
   font-weight: bold;
-  width: 212px;
+  width: 266px;
   height: 55px;
   text-align: center;
   display: flex;
@@ -424,6 +424,7 @@ p.citrusPurinaONE__subhead {
 @media screen and (max-width: 425px) {
   .citrusPurinaONE__heroCopy h1 {
     padding-bottom: 30px;
+    font-weight: 700 !important;
   }
 }
 
@@ -710,7 +711,7 @@ p.citrusPurinaONE__subhead {
 }
 
 .citrusPurinaONE__groupProductShot {
-  border: 1px solid #001952;
+  border: 1px solid #333;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -718,7 +719,7 @@ p.citrusPurinaONE__subhead {
 .citrusPurinaONE__groupProductShot__item {
   display: flex;
   justify-content: center;
-  align-items: self-start;
+  align-items: center;
   height: 100%;
   margin: auto;
   padding-top: 0;
