@@ -110,6 +110,7 @@ body {
   font-weight: bold;
   width: 212px;
   height: 55px;
+  line-height: 55px;
   text-align: center;
   display: flex;
   align-items: center;
