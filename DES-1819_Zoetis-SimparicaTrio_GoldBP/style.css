@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common styling */
+.citrusTrio__Wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.citrusTrio__Wrapper a {
+  text-decoration: none;
+}
+
+.citrusTrio__desktop_hide {
+  display: none;
+}
+
+.citrusTrio__mobile_hide {
+  display: block;
+}
+
+/* Overflow Scrollbar */
+.citrusX-wrapper::-webkit-scrollbar,
+.citrusTrio__CategoryContainer::-webkit-scrollbar,
+.citrusTrio__category::-webkit-scrollbar,
+.citrusTrio__findCatRecipesContainer::-webkit-scrollbar,
+.citrusTrio__productContainer::-webkit-scrollbar {
+  display: none;
+}
