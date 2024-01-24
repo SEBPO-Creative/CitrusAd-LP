@@ -100,6 +100,7 @@ p.citrusPurinaONE__subhead {
 .citrusPurinaONE__sectionCTAgap {
   padding-top: 35px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .bestSellerCTA {
@@ -164,7 +165,7 @@ p.citrusPurinaONE__subhead {
     padding-right: 0 !important;
     max-width: 330px;
   }
-  .citrusPurinaONE__sectionTitle{
+  .citrusPurinaONE__sectionTitle {
     max-width: 290px;
   }
 }
@@ -391,10 +392,10 @@ p.citrusPurinaONE__subhead {
     text-transform: none;
   }
 
-  p.citrusPurinaONE__subhead{
+  p.citrusPurinaONE__subhead {
     font-size: 20px;
   }
-/* 
+  /* 
   .citrusPurinaONE__petcoBadge {
     width: 15% !important;
     position: absolute;
@@ -535,7 +536,7 @@ p.citrusPurinaONE__subhead {
   .citrusPurinaONE__product-card03 {
     padding-right: 15px;
   }
-  .citrusPurinaONE__tab-container{
+  .citrusPurinaONE__tab-container {
     padding: 0 15px;
   }
 }
@@ -687,7 +688,7 @@ p.citrusPurinaONE__subhead {
   cursor: pointer;
 }
 
-.citrusPurinaONE__productCTA svg{
+.citrusPurinaONE__productCTA svg {
   max-width: 37.5px;
   padding: 0 0 7px;
 }
