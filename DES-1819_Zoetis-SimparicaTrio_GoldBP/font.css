@@ -1,6 +1,6 @@
 /* Importing Petco Circular Font from Petco Website */
 @font-face {
-  font-family: "PetcoCircular-regular";
+  font-family: "PetcoCircular-Regular";
   src: url("https://www.petco.com/assets/fonts/PetcoCircular-Regular.woff2")
     format("woff");
   font-weight: normal;

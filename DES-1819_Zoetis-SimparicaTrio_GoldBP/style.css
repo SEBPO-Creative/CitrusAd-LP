@@ -11,7 +11,7 @@ body {
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 16px;
   background: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .citrusTrio__Wrapper a {
@@ -33,4 +33,139 @@ body {
 .citrusTrio__findCatRecipesContainer::-webkit-scrollbar,
 .citrusTrio__productContainer::-webkit-scrollbar {
   display: none;
+}
+
+.citrusTrio__sectionTitle {
+  margin: 20px 15px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  line-height: initial;
+  font-family: "PetcoCircular-Bold", arial !important;
+}
+/* article 3up style */
+.citrusTrio__article--container {
+  width: 1145px;
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+/* footer style */
+.citrusTrio__footer {
+  margin-top: 90px;
+  margin-bottom: 0px;
+  width: 100%;
+  max-width: 100%;
+  background: rgba(100, 201, 209, 0.25);
+}
+
+.citrusTrio__footerRow {
+  width: 1150px;
+  max-width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  position: relative;
+}
+
+.citrusTrio__bannerImg {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.citrusTrio__bannerImg img {
+  width: 100%;
+  max-width: 470px;
+  margin: auto;
+  height: 300px;
+}
+
+.citrusTrio__footerText {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.citrusTrio__footerText p {
+  width: 100%;
+  max-width: 613px;
+  margin: 0 15px 24px;
+  font-family: "PetcoCircular-Regular", arial !important;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  text-align: center;
+}
+
+.citrusTrio__footerCTA {
+  display: flex;
+  justify-content: center;
+}
+.citrusTrio__footerCTA a {
+  display: block;
+  width: 212px;
+  height: 52px;
+  background: #001952;
+  border: none;
+  border-radius: 5px;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  line-height: 52px;
+  color: #fff;
+  cursor: pointer;
+}
+p.citrusTrio__disclaimer {
+  margin: 25px 67px;
+  font-family: "PetcoCircular-Regular", arial !important;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+@media (max-width: 767px) {
+  /* footer style */
+  .citrusTrio__footerRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .order1 {
+    order: 2;
+  }
+  .order2 {
+    order: 1;
+  }
+  .citrusTrio__bannerImg {
+    top: 0px;
+  }
+  .citrusTrio__bannerImg img {
+    max-width: 345px;
+    height: unset;
+  }
+  .citrusTrio__footerText {
+    margin-top: 20px;
+  }
+  .citrusTrio__footerCTA a {
+    background: unset;
+    color: #001952;
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: capitalize;
+    height: unset;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  p.citrusTrio__disclaimer {
+    margin: 25px 33px;
+    text-align: center;
+  }
 }
