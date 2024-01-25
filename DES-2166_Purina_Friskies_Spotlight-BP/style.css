@@ -120,6 +120,9 @@ body {
   font-weight: 700;
   margin: 0 auto;
 }
+.citrusFriskies__commonCTA:hover {
+  color: #fff;
+}
 
 @media screen and (max-width: 767px) {
   .citrusFriskies__sectionTitle {
@@ -576,6 +579,9 @@ body {
     text-decoration: underline;
     text-align: center;
     border: none;
+  }
+  .citrusFriskies__commonCTA:hover {
+    color: #001952;
   }
 }
 

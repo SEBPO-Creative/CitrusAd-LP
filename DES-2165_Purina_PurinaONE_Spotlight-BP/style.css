@@ -136,6 +136,9 @@ p.citrusPurinaONE__subhead {
   margin: 0 auto;
   font-size: 16px;
 }
+a.citrusPurinaONE__commonCTA:hover {
+  color: #fff;
+}
 
 @media screen and (max-width: 767px) {
   .citrusPurinaONE__sectionTitle {
@@ -578,6 +581,9 @@ p.citrusPurinaONE__subhead {
     text-decoration: underline;
     text-align: center;
     border: none;
+  }
+  a.citrusPurinaONE__commonCTA:hover {
+    color: #001952;
   }
 }
 
