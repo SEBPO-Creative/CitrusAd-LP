@@ -4,3 +4,4 @@
 - [Fancy-Feast]<https://sebpo-creative.github.io/CitrusAd-LP/DES-2164_Fancy_Feast_Spotlight-BP_Refresh/>
 - [Purina-Friskies]<https://sebpo-creative.github.io/CitrusAd-LP/DES-2166_Purina_Friskies_Spotlight-BP/>
 - [PurinaONE]<https://sebpo-creative.github.io/CitrusAd-LP/DES-2165_Purina_PurinaONE_Spotlight-BP/>
+- [PurinProPlan]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1237-Purina-Pro-Plan/>
