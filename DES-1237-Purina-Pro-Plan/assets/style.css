@@ -63,6 +63,7 @@
   border: 1px solid #001952;
   min-width: 120px;
   margin: 0 15px;
+  font-weight: 700;
 }
 
 .citrus_purina .cta-all-container {
@@ -989,6 +990,7 @@ button {
   margin-top: 3rem;
   text-transform: uppercase;
   border: 1px solid #001952;
+  font-weight: 700;
 }
 
 .citrus-purina-cta-box-tab:hover {
