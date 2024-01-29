@@ -338,6 +338,70 @@ body {
   max-width: 177px;
 }
 
+/* Comparision section */
+.citrusTrio__comparison .citrusTrio__comparison--wrap{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  align-items: flex-end;
+}
+
+.citrusTrio__comparison--col{
+  max-width: 197px;
+  margin: 0 auto;
+  border: 5px solid transparent;
+}
+
+.citrusTrio__comparison--col:nth-child(1) .citrusTrio__comparison--header img{
+  opacity: 0;
+}
+
+.citrusTrio__comparison--col:nth-child(2){
+  max-width: 262px !important;
+}
+
+.citrusTrio__comparison--col:nth-child(2) .citrusTrio__comparison--header img{
+  max-width: 215px;
+}
+
+.citrusTrio__comparison--active,
+.citrusTrio__comparison--col:hover{
+  border-radius: 10px;
+  border: 5px solid rgba(100, 201, 209, 0.30);
+  background: #FFF;
+}
+
+.citrusTrio__comparison--header{
+  text-align: center;
+}
+
+.citrusTrio__comparison--header img{
+  padding: 3em 0;
+  max-width: 133px;
+  margin: 0 auto;
+}
+
+.citrusTrio__comparison--header h2,
+.citrusTrio__comparison--body h2{
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px 0;
+  border-bottom: 1px solid #AEAEAE;
+}
+
+
+.citrusTrio__comparison--header h2{
+  font-size: 18px;
+}
+
+.citrusTrio__comparison--body h2 img{
+
+}
+
 /* footer style */
 .citrusTrio__footer {
   margin-top: 90px;
