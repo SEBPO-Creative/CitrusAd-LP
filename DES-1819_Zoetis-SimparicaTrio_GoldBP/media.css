@@ -1,0 +1,161 @@
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    /* Hero Carousel */
+    .citrusTrio__carousel2 .citrusTrio__carousel--text h2, p {
+        text-align: left;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio__carousel--disclaimer {
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    .citrusTrio__carousel--text h2{
+        padding: 0 0 10px;
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .citrusTrio__carousel--text p{
+        padding: 0 0 10px;
+    }
+
+    .citrusTrio__carousel--disclaimer{
+        padding: 5px 0 0 !important;
+    }
+
+    .citrusTrio__carousel--text {
+        min-width: 250px;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio-cta__box--color {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Hero Carousel */
+    .citrusTrio__carousel--logo {
+        padding: 20px;
+    }
+
+    .citrusTrio__carousel--text {
+        min-width: 250px;
+    }
+
+    .citrusTrio__carousel--text h2{
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0 0 10px;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text h2, p {
+        text-align: left;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio__carousel--disclaimer {
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    .citrusTrio__carousel--text p{
+        padding: 0 0 10px;
+    }
+
+    .citrusTrio__carousel--disclaimer{
+        padding: 5px 0 0 !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* Box cta reverse to underline */
+    .citrusTrio-cta__box--color{
+        width: auto;
+        height: auto;
+        background: transparent;
+        justify-content: flex-start;
+    }
+
+    .citrusTrio-cta__box--color a{
+        color: #001952;
+        text-align: left;
+        text-decoration: underline;
+        text-transform: CAPITALIZE;
+    }
+
+    .citrusTrio-cta__box--color a:hover{
+        color: #001952;
+    }
+
+    .citrusTrio__carousel--shots img {
+        width: 120%;
+        margin: -8% 0 0 0;
+    }
+
+    
+    /* Size sections */
+    .citrusTrio__article-4up--single-item{
+        min-width: 259px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    /* Common class */
+    .citrusTrio__desktop_hide {
+        display: block;
+      }
+      
+      .citrusTrio__mobile_hide {
+        display: none !important;
+      }
+
+    /* Hero Carousel */
+    .citrusTrio__carousel--inner-item{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .citrusTrio__carousel--logo{
+        max-width: 132px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .citrusTrio__carousel--text {
+        padding: 0 20px;
+        min-width: 100%;
+    }
+
+    .citrusTrio__carousel--text h2{
+        max-width: 100%;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text h2, p {
+        text-align: left;
+    }
+
+    .citrusTrio__carousel--text p{
+        max-width: 250px;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio__carousel--disclaimer {
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    .citrusTrio__carousel--shots {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio-cta__box--color {
+        margin: 0;
+    }
+
+    .citrusTrio__carousel--shots img {
+        width: 100%;
+        margin: 0;
+    }
+
+}
