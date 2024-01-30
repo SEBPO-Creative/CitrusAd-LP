@@ -80,6 +80,14 @@ body {
   margin: 0 auto;
 }
 
+.citrusZoetis__desktop_hide {
+  display: none !important;
+}
+
+.citrusZoetis__mobile_hide {
+  display: block;
+}
+
 .citrusX_disclaimer {
   display: flex;
   justify-content: center;
@@ -162,6 +170,118 @@ span {
 
 /* End Universal CSS */
 
+/* Hero section */
+.citrusZoetis__hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(54 189 178 / 5%);
+  padding: 0 0 0 3.5%;
+}
+
+.citrusZoetis__hero--text h1{
+  color: #009FC2;
+  font-size: 35px;
+  line-height: 35px;
+  font-family: "PetcoCircular-Black", arial !important;
+  font-weight: 700;
+  padding: 0 0 40px;
+}
+
+.citrusZoetis__hero--text p{
+  padding: 15px 0 0;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "PetcoCircular-Regular", arial !important;
+}
+
+/* CTA Box with background color */
+.citrusZoetis-cta__box--color {
+  width: 212px;
+  padding: 17px;
+  border-radius: 5px;
+  background: #001952;
+  margin: 0;
+}
+
+.citrusZoetis-cta__box--color a {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1023px) {
+
+  /* Box cta reverse to underline */
+  .citrusZoetis-cta__box--color{
+      width: auto;
+      height: auto;
+      background: transparent;
+      justify-content: flex-start;
+  }
+
+  .citrusZoetis-cta__box--color a{
+      color: #001952;
+      text-align: left;
+      text-decoration: underline;
+      text-transform: CAPITALIZE;
+  }
+
+  .citrusZoetis-cta__box--color a:hover{
+      color: #001952;
+  }
+}
+
+@media screen and (max-width: 767px) {
+   /* Hero Section */
+   .citrusZoetis__hero{
+    flex-wrap: wrap;
+    }
+
+    .citrusZoetis__hero--text {
+      text-align: center;
+      order: 3;
+    }
+
+    .citrusZoetis__hero--logo{
+      padding: 20px 0;
+      margin: 0 auto;
+    }
+
+    .citrusZoetis__hero--logo img{
+      padding: 20px 0 0;
+    }
+
+    .citrusZoetis__hero--logo .citrusZoetis__desktop_hide{
+      text-align: center;
+    }
+
+    .citrusZoetis__hero--logo .citrusZoetis__desktop_hide img{
+      width: 42.71px;
+      margin: 0 auto;
+      padding: 20px 0 0;
+    }
+
+  .citrusZoetis__hero--text h1{
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 0 18px;
+  }
+
+  .citrusZoetis-cta__box--color{
+    padding: 17px 0 10px;
+  }
+
+  .citrusZoetis__hero--text p{
+    padding: 0 0 20px;
+  }
+
+}
 
 /* product section three across */
 .citrusX__product {
@@ -261,6 +381,15 @@ span {
 
 
 @media screen and (max-width: 767px) {
+  /* Show-hide class */
+  /* Common class */
+  .citrusZoetis__desktop_hide {
+    display: block !important;
+  }
+  
+  .citrusZoetis__mobile_hide {
+    display: none !important;
+  }
   /* Educational Mode */
   .citrusX__product-card03 {
     padding-right: 15px;
@@ -373,19 +502,15 @@ span {
 .citrusX-tab-card p {
   font-family: "petcocircular-regular", arial !important;
   color: #333333;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 22px;
   text-align: left;
   margin: 20px 0 14px;
   text-decoration: none;
   overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   max-height: 4em;
-  /*standard size is 4em*/
   font-weight: 500;
+  line-height: 13px;
 }
 
 .citrusX__productCTA {
