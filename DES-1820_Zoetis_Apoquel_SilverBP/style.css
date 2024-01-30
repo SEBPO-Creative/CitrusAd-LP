@@ -1,0 +1,653 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.citrusX__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.citrusX__wrapper h1,
+.citrusX__wrapper h2,
+.citrusX__wrapper h3,
+.citrusX__wrapper h4,
+.citrusX__wrapper h5,
+.citrusX__wrapper h6 {
+  margin: 0;
+  padding: 0;
+  line-height: initial;
+}
+
+.citrusX__wrapper p {
+  margin: 0;
+  padding: 0;
+  line-height: initial;
+}
+
+.citrusX__wrapper a {
+  text-decoration: none;
+}
+
+.citrusX__wrapper a:hover {
+  text-decoration: none;
+}
+
+.citrusX__sectionTitle {
+  margin: 0;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 60px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.citrusX__wrapper img {
+  width: 100%;
+}
+
+.citrusX__sectionGap {
+  padding-bottom: 40px;
+}
+
+.citrusX__sectionCTAgap {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.citrusX__commonCTA {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #001952;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 212px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "PetcoCircular-Black", arial !important;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.citrusX_disclaimer {
+  display: flex;
+  justify-content: center;
+  width: 335px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "petcocircular-regular", arial !important;
+  font-weight: 400;
+  margin-top: 25px;
+  color: #000;
+}
+
+span {
+  color: #CA006B;
+}
+
+@media screen and (max-width:768px) {
+  .citrusX__sectionTitle {
+    font-size: 25px;
+    margin: 0 auto !important;
+    padding-bottom: 30px !important;
+  }
+
+  /* End Educational Mode */
+  .citrusX__commonCTA {
+    width: max-content;
+    height: max-content;
+    background: none;
+    color: #001952;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: underline !important;
+    text-align: center;
+    border: none;
+  }
+}
+
+
+@media screen and (max-width:520px) {
+  .citrusX__sectionTitle {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .citrusX__sectionTitle {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.citrusX__desktop_block {
+  display: block;
+}
+
+.citrusX__mobile_block {
+  display: none;
+}
+
+/* Overflow Scrollbar */
+.citrusX-wrapper::-webkit-scrollbar,
+.citrusX__product::-webkit-scrollbar,
+.citrusX__productContainer::-webkit-scrollbar,
+.citrusX__productCarousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.citrusX__productCarousel-wrapper,
+.citrusX__product,
+.citrusX__productContainer {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* End Universal CSS */
+
+
+/* product section three across */
+.citrusX__product {
+  margin-top: 60px;
+}
+
+span {
+  color: #CA006B;
+}
+
+.citrusX__tab-container h2 {
+  padding: 10px 15px 30px !important;
+}
+
+
+.citrusX__productContainer {
+  width: 1241px;
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.citrusX__productContainer a {
+  text-decoration: none;
+}
+
+.citrusX__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.citrusX__card {
+  width: 361px;
+  max-width: 100%;
+  height: 470px;
+  border: 2px solid #35BDB2;
+  background-color: #F4FCFB;
+  border-radius: 8px;
+}
+
+.citrusX__card-img {
+  background: #fff;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border-radius: 8px;
+}
+
+.citrusX__card-img img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 6px 6px 0 0;
+}
+
+.citrusX__card-body {
+  margin: 35px 19px 20px;
+}
+
+.citrusX__card-body h3 {
+  font-size: 25px;
+  line-height: 20px;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
+  color: #009FC2;
+}
+
+.citrusX__card-body p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "petcocircular-regular", arial !important;
+  font-weight: 400;
+  color: #000;
+}
+
+@media screen and (min-width:1101px) and (max-width: 1150px) {
+  .citrusX__productContainer {
+    max-width: 98%;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .citrusX__row {
+    padding: 0 15px;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+  .citrusX__product-card03 {
+    padding-right: 15px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /* Educational Mode */
+  .citrusX__product-card03 {
+    padding-right: 15px;
+  }
+
+  .citrusX__card {
+    width: 271px;
+    height: 420px;
+  }
+
+  .citrusX__card-body {
+    margin: 20px 0 0 20px;
+  }
+
+  .citrusX__card-img {
+    height: 178px;
+    overflow: hidden;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .citrusX__card-body p {
+    margin-top: 10px;
+    width: 231px;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .citrusX__heroCopy h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Educational Mode */
+  .citrusX__row:first-child {
+    width: 87.5%;
+  }
+
+  .citrusX__card-body h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .citrusX__card-body p {
+    margin: unset;
+    width: 224px;
+  }
+}
+
+/* End Three Across Custom CSS */
+
+
+/* Default CSS */
+/* Product Carousel section Section Combined CSS */
+/* tab button style */
+.citrusX__productCarousel-wrapper {
+  width: 100%;
+  max-width: 1273px;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.citrusX__main-tab-content {
+  padding: 0 30px;
+}
+
+.citrusXTabId {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.citrusX__tab-area {
+  overflow: hidden;
+}
+
+.citrusX__tab-container {
+  max-width: 1253px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.splide__pagination {
+  display: none;
+}
+
+.citrusX-tab-card {
+  padding: 30px 0 0;
+}
+
+.citrusX__Product {
+  display: none;
+}
+
+.citrusX__Product img {
+  object-fit: contain;
+}
+
+.citrusX-tab-cardImg img {
+  max-width: 100%;
+  max-width: 117px;
+}
+
+.citrusX-tab-card>a {
+  text-decoration: none;
+  color: #000;
+}
+
+.citrusX-tab-card p {
+  font-family: "petcocircular-regular", arial !important;
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  margin: 20px 0 14px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 4em;
+  /*standard size is 4em*/
+  font-weight: 500;
+}
+
+.citrusX__productCTA {
+  border: 0;
+  padding-left: 0;
+  background: none;
+  text-decoration: underline;
+  font-family: "PetcoCircular-Black", arial !important;
+  color: #001952;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.citrusX__Products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.citrusX-tab-cardImg {
+  padding: 0 10px;
+  margin: auto;
+  width: fit-content;
+}
+
+.citrusTabShow {
+  display: block;
+}
+
+.citrusX__tab_item {
+  text-transform: uppercase;
+  padding: 12px 20px;
+  margin: 0px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 10px solid transparent;
+  cursor: pointer;
+  color: #9b9b9b;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.citrusX__tab_item.citrusX__active_tab {
+  color: #001952;
+  border-bottom: 10px solid #001952;
+  border-radius: 0;
+}
+
+.citrusXTabId {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #021B4E;
+}
+
+button.citrusX__tab_item img {
+  width: 50px;
+  padding-bottom: 20px;
+}
+
+/* hide arrow */
+.citrusX_hide_arrow .splide__arrows {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .citrusX-section__tab-content {
+    padding-left: 0;
+  }
+
+  .citrusXTabId {
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+
+  .citrusX__tab-container {
+    width: 100%;
+  }
+
+  .citrusX__product {
+    margin-top: 30px !important;
+  }
+
+
+  .splide__list.citrusX-chewables-items {
+    justify-content: flex-start;
+  }
+
+  .splide__arrow {
+    display: none !important;
+  }
+}
+
+
+@media all and (max-width: 575px) {
+  .citrusX__tab_item {
+    margin: 0;
+    width: calc(100%/2 - 30px);
+    padding: 7px 20px 12px;
+  }
+
+  .citrusX__sectionCTAgap {
+    padding: 35px 0;
+  }
+
+  .citrusX__Product {
+    max-width: 195px;
+  }
+}
+
+/* custom css */
+.splide__arrow:disabled {
+  opacity: 0;
+}
+
+/* video style */
+.citrusX__content-banner {
+  max-width: 1257px;
+  margin: auto;
+}
+
+.citrusX__video {
+  margin-top: 40px;
+  background: #f4fcfb;
+  min-height: 370px;
+}
+
+.citrusX__videoRow {
+  width: 1150px;
+  max-width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  position: relative;
+}
+
+.citrusX__iframe {
+  position: relative;
+  top: -30px;
+}
+
+.citrusX__iframe iframe {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  height: 317px;
+}
+
+.citrusX__videoText {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.citrusX__videoText h2 {
+  font-family: "PetcoCircular-Bold", arial !important;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+}
+
+.citrusX__videoText p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-family: "petcocircular-regular", arial !important;
+  padding: 0 18%;
+  text-align: center;
+}
+
+.citrusX__content-cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/*----------------------------------- responsive styling------------------------------------- */
+
+@media all and (min-width: 769px) and (max-width: 1250px) {
+  .citrusX__videoRow {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .citrusX__videoRow {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .citrusX__iframe {
+    top: 3px;
+  }
+
+  .citrusX__videoText {
+    min-height: 270px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .citrusX__videoText p {
+    padding: 0 8%;
+  }
+}
+
+
+/* Safety Infomation Style Start */
+.citrusX-safety--info{
+  max-width: 1257px;
+  margin: auto;
+}
+.citrusX-safety--info p{
+  font-size: 16px;
+  font-family: "petcocircular-regular", arial !important;
+  color: #000;
+  font-weight: 400;
+}
+
+.citrusX-safety--info p b, .citrusX-safety--info p a{
+  font-size: 16px;
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
+  color: #000;
+}
+
+.citrusX-safety-important--info{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.citrusX-safety-important--info p{
+  font-size: 12px !important;
+  font-family: "petcocircular-regular", arial !important;
+  color: #000;
+}
+/* End Safety Infomation Style */
