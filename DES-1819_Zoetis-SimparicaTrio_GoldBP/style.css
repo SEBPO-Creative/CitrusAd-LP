@@ -22,6 +22,11 @@ h3 {
   margin: 0;
 }
 
+.citrusTrio__no-pading{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .citrusTrio__Wrapper p {
   font-family: "PetcoCircular-Regular", arial !important;
   margin: 0;
@@ -36,7 +41,7 @@ h3 {
 }
 
 .citrusTrio__desktop_hide {
-  display: none;
+  display: none !important;
 }
 
 .citrusTrio__mobile_hide {
@@ -54,13 +59,15 @@ h3 {
 
 /* Hide Scrollbar */
 .citrusX-wrapper::-webkit-scrollbar,
-.citrusTrio__article--container::-webkit-scrollbar {
+.citrusTrio__article--container::-webkit-scrollbar,
+.citrusTrio__comparison--container::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide Scrollbar for IE, Edge and Firefox */
 .citrusX-wrapper,
-.citrusTrio__article--container {
+.citrusTrio__article--container,
+.citrusTrio__comparison--container {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -166,7 +173,7 @@ h3 {
   font-size: 25px;
   font-weight: 900;
   color: #a50f4cf4;
-  padding: 0 0 15px;
+  padding: 0 0 20px;
   line-height: 25px;
   font-family: "PetcoCircular-Black", arial !important;
   max-width: 462px;
@@ -199,7 +206,7 @@ p {
   padding: 0 0 20px;
   font-size: 16px;
   font-weight: 400;
-  line-height: normal;
+  line-height: 16px;
   color: #000;
   text-align: left;
 }
@@ -208,14 +215,14 @@ p {
   color: #000;
   font-size: 12px !important;
   font-weight: 400;
-  line-height: normal;
+  line-height: 12px !important;
   padding: 15px 0 0 !important;
   max-width: 300px;
 }
 
 .citrusTrio__carousel--shots {
   max-width: 492px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   align-items: flex-end;
   height: 100%;
@@ -275,18 +282,19 @@ p {
 }
 
 .citrusTrio__article-4up--single-item {
-  width: 259px;
+  min-width: 259px;
   margin: 0 auto;
 }
 
 .citrusTrio__article-4up--single-item img {
   display: flex;
+  margin: 0 auto;
 }
 
 .citrusTrio__article-4up--text-wrap {
   background: #64c9d11a;
   text-align: center;
-  padding: 40px 15px;
+  padding: 40px 10px;
   min-height: 140px;
   margin-top: -1px;
 }
@@ -305,6 +313,7 @@ p {
   color: #000;
   padding: 28px 0 0;
   margin: 0;
+  text-align: center;
 }
 
 .citrusTrio__sectionCTA--shop-all {
@@ -399,6 +408,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 73px;
+  font-weight: 700;
 }
 .bottom-border {
   border-bottom: 1px solid #aeaeae;
@@ -531,87 +541,7 @@ p.citrusTrio__disclaimer {
   color: #000;
 }
 
-@media screen and (max-width: 767px) {
-  /* Content 4up */
-  .citrusTrio__sectionCTA--shop-all {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .citrusTrio__sectionCTA--shop-all p {
-    order: 2;
-    margin: 0 !important;
-    padding: 0 15px;
-  }
-
-  .citrusStylesSE-cta__box--color {
-    padding: 0;
-    background: transparent;
-    margin: 25px auto;
-  }
-
-  .citrusStylesSE-cta__box--color a {
-    color: #001952;
-    text-decoration: underline;
-    text-transform: capitalize;
-    font-weight: 700;
-  }
-  /* comparison */
-  .citrusTrio__comparison-chart {
-    width: 1000px;
-  }
-  .citrusTrio__comparison-chart
-    .citrusTrio__comparison-row
-    .citrusTrio__Comparison--col-2 {
-    width: 182px;
-  }
-  .citrusTrio__comparison-chart
-    .citrusTrio__comparison-row.thead
-    .citrusTrio__Comparison--col-2
-    img {
-    max-width: 140px;
-  }
-  .citrusTrio__comparison-chart .thead img {
-    padding: 1em 0;
-    max-width: 98px;
-  }
-  .citrusTrio__comparison-row.title h2 {
-    font-size: 16px;
-  }
-  .title h2 {
-    font-size: 12px;
-  }
-  /* footer style */
-  .citrusTrio__footerRow {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .order1 {
-    order: 2;
-  }
-  .order2 {
-    order: 1;
-  }
-  .citrusTrio__bannerImg {
-    top: 0px;
-  }
-  .citrusTrio__bannerImg img {
-    max-width: 345px;
-    height: unset;
-  }
-  .citrusTrio__footerText {
-    margin-top: 20px;
-  }
-  .citrusTrio__footerCTA a {
-    background: unset;
-    color: #001952;
-    font-weight: 900;
-    text-decoration: underline;
-    text-transform: capitalize;
-    height: unset;
-    line-height: normal;
-    margin-bottom: 20px;
-  }
-  p.citrusTrio__disclaimer {
-    margin: 25px 33px;
-    text-align: center;
-  }
+p.citrusTrio__disclaimer b{
+  font-family: "PetcoCircular-Bold", arial !important;
+  font-weight: 700;
 }

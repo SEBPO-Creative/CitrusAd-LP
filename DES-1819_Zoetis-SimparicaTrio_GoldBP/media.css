@@ -10,13 +10,14 @@
     }
 
     .citrusTrio__carousel--text h2{
-        padding: 0 0 10px;
+        padding: 0 0 10px !important;
         font-size: 19px;
         line-height: 20px;
     }
 
     .citrusTrio__carousel--text p{
         padding: 0 0 10px;
+        line-height: 16px;
     }
 
     .citrusTrio__carousel--disclaimer{
@@ -31,6 +32,10 @@
         margin: 0 !important;
     }
 
+    .citrusTrio__article-4up--single-item {
+        min-width: 311px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -41,6 +46,7 @@
 
     .citrusTrio__carousel--text {
         min-width: 250px;
+        margin: -10px 0 0;
     }
 
     .citrusTrio__carousel--text h2{
@@ -51,6 +57,7 @@
 
     .citrusTrio__carousel2 .citrusTrio__carousel--text h2, p {
         text-align: left;
+        padding: 0 0 10px;
     }
 
     .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio__carousel--disclaimer {
@@ -87,15 +94,34 @@
         color: #001952;
     }
 
+    /* Content 4up & Content 6up CTA */
+    .citrusStylesSE-cta__box--color {
+        padding: 0;
+        background: transparent;
+        margin: 25px auto;
+      }
+    
+      .citrusStylesSE-cta__box--color a {
+        color: #001952;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 700;
+      }
+
+      .citrusTrio__footerCTA a {
+        background: unset;
+        color: #001952;
+        font-weight: 900;
+        text-decoration: underline;
+        text-transform: capitalize;
+        height: unset;
+        line-height: normal;
+        margin-bottom: 20px;
+      }
+
     .citrusTrio__carousel--shots img {
         width: 120%;
         margin: -8% 0 0 0;
-    }
-
-    
-    /* Size sections */
-    .citrusTrio__article-4up--single-item{
-        min-width: 259px;
     }
 
 }
@@ -103,7 +129,7 @@
 @media screen and (max-width: 767px) {
     /* Common class */
     .citrusTrio__desktop_hide {
-        display: block;
+        display: block !important;
       }
       
       .citrusTrio__mobile_hide {
@@ -114,6 +140,7 @@
     .citrusTrio__carousel--inner-item{
         flex-wrap: wrap;
         gap: 0;
+        align-items: flex-end;
     }
 
     .citrusTrio__carousel--logo{
@@ -129,6 +156,9 @@
 
     .citrusTrio__carousel--text h2{
         max-width: 100%;
+        font-size: 23px;
+        max-width: 300px;
+        margin: 0 !important;
     }
 
     .citrusTrio__carousel2 .citrusTrio__carousel--text h2, p {
@@ -144,6 +174,10 @@
         text-align: left;
     }
 
+    .citrusTrio__carousel3 .citrusTrio__carousel--text .citrusTrio__carousel--disclaimer {
+        padding: 15px 0 !important;
+    }
+
     .citrusTrio__carousel--shots {
         height: auto;
         max-width: 100%;
@@ -157,5 +191,79 @@
         width: 100%;
         margin: 0;
     }
+  
+    
+    /* Size sections */
+    .citrusTrio__article-4up--single-item{
+        min-width: 311px;
+    }
+
+    /* Content 6up */
+    .citrusTrio__article-6up .citrusTrio__article-4up--single-item {
+        min-width: 205px;
+    }
+
+     /* Content 4up */
+  .citrusTrio__sectionCTA--shop-all {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .citrusTrio__sectionCTA--shop-all p {
+    order: 2;
+    margin: 0 !important;
+    padding: 0 15px;
+  }
+
+  /* comparison */
+  .citrusTrio__comparison-chart {
+    width: 1000px;
+  }
+  .citrusTrio__comparison-chart
+    .citrusTrio__comparison-row
+    .citrusTrio__Comparison--col-2 {
+    width: 182px;
+  }
+  .citrusTrio__comparison-chart
+    .citrusTrio__comparison-row.thead
+    .citrusTrio__Comparison--col-2
+    img {
+    max-width: 140px;
+  }
+  .citrusTrio__comparison-chart .thead img {
+    padding: 1em 0;
+    max-width: 98px;
+    text-align: center;
+  }
+  .citrusTrio__comparison-row.title h2 {
+    font-size: 16px;
+  }
+  .title h2 {
+    font-size: 12px;
+  }
+  /* footer style */
+  .citrusTrio__footerRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .order1 {
+    order: 2;
+  }
+  .order2 {
+    order: 1;
+  }
+  .citrusTrio__bannerImg {
+    top: 0px;
+  }
+  .citrusTrio__bannerImg img {
+    max-width: 345px;
+    height: unset;
+  }
+  .citrusTrio__footerText {
+    margin-top: 20px;
+  }
+
+  p.citrusTrio__disclaimer {
+    margin: 25px 33px;
+    text-align: center;
+  }
 
 }
