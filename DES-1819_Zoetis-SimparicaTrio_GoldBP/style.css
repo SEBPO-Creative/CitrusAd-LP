@@ -296,7 +296,7 @@ p {
   background: #64c9d11a;
   text-align: center;
   padding: 40px 10px;
-  min-height: 140px;
+  min-height: 155px;
   margin-top: -1px;
 }
 
@@ -327,6 +327,12 @@ p {
   line-height: normal;
   color: #000;
   margin: 15px 0 0;
+  text-align: center;
+}
+
+.citrusTrio__sectionCTA--shop-all .citrusTrio__disclaimer{
+  text-align: center;
+  font-size: 12px !important;
 }
 
 .citrusTrio__sectionCTA--shop-all a {
@@ -464,6 +470,7 @@ p {
 .chart-disclaimer .citrusTrio__disclaimer {
   margin: 0 0 0 10px;
   text-align: left;
+  font-size: 12px !important;
 }
 /* imran */
 /* footer style */
