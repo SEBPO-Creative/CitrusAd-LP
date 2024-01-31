@@ -22,7 +22,7 @@ h3 {
   margin: 0;
 }
 
-.citrusTrio__no-pading{
+.citrusTrio__no-pading {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -160,7 +160,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(90, 199, 210, 0.10)
+  background-color: rgba(90, 199, 210, 0.1);
 }
 
 .citrusTrio__carousel--logo {
@@ -287,10 +287,6 @@ p {
   margin: 0 auto;
 }
 
-.citrusTrio__article-4up--modified{
-  padding: 30px 10px;
-}
-
 .citrusTrio__article-4up--single-item img {
   display: flex;
   margin: 0 auto;
@@ -303,7 +299,13 @@ p {
   min-height: 135px;
   margin-top: -1px;
 }
-
+.citrusTrio__article-4up--modified .citrusTrio__article-4up--text-wrap {
+  padding: 40px 0px;
+}
+.citrusTrio__article-4up--modified .citrusTrio__article-4up--text-wrap p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .citrusTrio__article-4up--single-item h3 {
   font-size: 18px;
   font-weight: 700;
@@ -334,7 +336,7 @@ p {
   text-align: center;
 }
 
-.citrusTrio__sectionCTA--shop-all .citrusTrio__disclaimer{
+.citrusTrio__sectionCTA--shop-all .citrusTrio__disclaimer {
   text-align: center;
   font-size: 12px !important;
 }
@@ -365,7 +367,7 @@ p {
   max-width: 177px;
 }
 
-.citrusTrio__article-6up  .citrusTrio__article-4up--single-item{
+.citrusTrio__article-6up .citrusTrio__article-4up--single-item {
   max-width: 177px;
   min-width: 177px;
 }
@@ -560,7 +562,7 @@ p.citrusTrio__disclaimer {
   text-align: left;
 }
 
-p.citrusTrio__disclaimer b{
+p.citrusTrio__disclaimer b {
   font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 700;
 }
