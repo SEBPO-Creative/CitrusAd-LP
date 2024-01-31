@@ -296,7 +296,13 @@
   .citrusTrio__bannerImg img {
     max-width: 345px;
     height: unset;
+    margin: 0 0 -28%;
   }
+
+  .citrusTrio__disclaimer--modified{
+    padding: 90px 0 0;
+  }
+
   .citrusTrio__footerText {
     margin-top: 20px;
   }
