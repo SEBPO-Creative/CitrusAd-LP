@@ -194,10 +194,8 @@ p {
   margin: 0 auto;
 }
 
-.citrusTrio__carousel2
-  .citrusTrio__carousel--text
-  .citrusTrio__carousel--disclaimer {
-  padding: 8px 0 0;
+.citrusTrio__carousel2 .citrusTrio__carousel--disclaimer {
+  padding: 10px 0 0 !important;
   margin: 0 auto !important;
   text-align: center;
 }
@@ -268,13 +266,12 @@ p {
 
 .citrusTrio__sectionTitle--wrap {
   text-align: center;
-  padding: 40px 15px;
+  padding: 40px 10px;
 }
 
 .citrusTrio__sectionTitle--wrap h2 {
   margin: 0;
   font-size: 20px;
-  max-width: 300px;
   margin: 0 auto;
 }
 
