@@ -4,7 +4,7 @@
    --------------------------*/
 // tab Carousel js
 // initialize product scroller
-advanceArrows("citrusX-chewables");
+advanceArrows("citrusZoetis-chewables");
 function advanceArrows(idx) {
     var splideElement = "#" + idx;
     var splideDefaultOptions = {
@@ -27,8 +27,17 @@ function advanceArrows(idx) {
             375: {
                 perPage: 1,
             },
+            425: {
+                perPage: 1.5,
+            },
+            520: {
+                perPage: 2.35,
+            },
             576: {
-                perPage: 1,
+                perPage: 2.5,
+            },
+            768: {
+                perPage: 3,
             },
             991: {
                 perPage: 3,
@@ -36,30 +45,6 @@ function advanceArrows(idx) {
             992: {
                 perPage: 3,
             },
-            // 375: {
-            //     perPage: 1,
-            // },
-            // 576: {
-            //     perPage: 1,
-            // },
-            // 991: {
-            //     perPage: 3,
-            // },
-            // 992: {
-            //     perPage: 3,
-            // },
-            // 1024: {
-            //     perPage: 4,
-            // },
-            // 1100: {
-            //     perPage: 4,
-            // },
-            // 1140: {
-            //     perPage: 5,
-            // },
-            // 1380: {
-            //     perPage: 5,
-            // },
             1440: {
                 perPage: 3,
             },
@@ -67,7 +52,7 @@ function advanceArrows(idx) {
 
     };
 
-    if(idx==="citrusX-tablets"){
+    if(idx==="citrusZoetis-tablets"){
         var splideDefaultOptions = {
             arrows: true,
             type: "slide",
@@ -79,14 +64,23 @@ function advanceArrows(idx) {
             pauseOnHover: true,
             perPage: 6,
             perMove: 1,
-            gap:20,
+            gap:40,
             omitEnd: true,
             breakpoints: {
                 375: {
                     perPage: 1,
                 },
+                425: {
+                    perPage: 1.5,
+                },
+                520: {
+                    perPage: 2.35,
+                },
                 576: {
-                    perPage: 1,
+                    perPage: 2.5,
+                },
+                768: {
+                    perPage: 3,
                 },
                 991: {
                     perPage: 3,
@@ -114,12 +108,12 @@ function advanceArrows(idx) {
 /* ************************************************************************************** */
 //for tab sweater & loader added
 document.addEventListener("DOMContentLoaded", function () {
-    filterProducts("citrusX-chewables");
+    filterProducts("citrusZoetis-chewables");
 });
 // for dog filter function
 function filterProducts(c) {
     var x, i;
-    x = document.getElementsByClassName("citrusX__Product");
+    x = document.getElementsByClassName("citrusZoetis__Product");
     if (c == "all") c = "";
     for (i = 0; i < x.length; i++) {
         RemoveClass(x[i], "citrusTabShow");
@@ -153,9 +147,9 @@ function RemoveClass(element, name) {
 // Add active class to the current button (highlight it)
 document.addEventListener("DOMContentLoaded", function () {
     // for dog active class filter
-    var dogBtnContainer = document.getElementById("citrusXTabId");
-    var dogBtns = dogBtnContainer.getElementsByClassName("citrusX__tab_item");
-    addActiveClass(dogBtns, "citrusX__active_tab");
+    var dogBtnContainer = document.getElementById("citrusZoetisTabId");
+    var dogBtns = dogBtnContainer.getElementsByClassName("citrusZoetis__tab_item");
+    addActiveClass(dogBtns, "citrusZoetis__active_tab");
 });
 function addActiveClass(element, activeClass) {
     for (var i = 0; i < element.length; i++) {
