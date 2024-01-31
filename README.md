@@ -6,4 +6,4 @@
 - [PurinaONE]<https://sebpo-creative.github.io/CitrusAd-LP/DES-2165_Purina_PurinaONE_Spotlight-BP/>
 - [PurinProPlan]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1237-Purina-Pro-Plan/>
 - [SimparicaTrio]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1819_Zoetis-SimparicaTrio_GoldBP/>
-- [ZoetisApoquel]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1820_Zoetis_Apoquel_SilverBP//>
+- [ZoetisApoquel]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1820_Zoetis_Apoquel_SilverBP/>
