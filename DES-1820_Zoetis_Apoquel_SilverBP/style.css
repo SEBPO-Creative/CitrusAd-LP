@@ -850,8 +850,7 @@ button.citrusZoetis__tab_item img {
   font-weight: 400;
 }
 
-.citrusZoetis-safety--info p b,
-.citrusZoetis-safety--info p a {
+.citrusZoetis-safety--info p b {
   font-size: 16px;
   line-height: 19px;
   font-family: "PetcoCircular-Bold", arial !important;
