@@ -102,6 +102,9 @@
   }
 
   /* Content 4up & Content 6up CTA */
+  .citrusTrio__article-4up--single-item{
+    min-width: 311px;
+  }
   .citrusStylesSE-cta__box--color {
     padding: 0;
     background: transparent;
@@ -208,6 +211,10 @@
   /* Size sections */
   .citrusTrio__article-4up--single-item {
     min-width: 311px;
+  }
+
+  .citrusTrio__article-4up--single-item h3{
+    font-size: 16px;
   }
 
   /* Content 6up */

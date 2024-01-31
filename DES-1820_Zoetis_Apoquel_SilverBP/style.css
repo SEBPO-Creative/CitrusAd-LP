@@ -419,6 +419,14 @@ body {
   .citrusZoetis__product-card03 {
     padding-right: 15px;
   }
+
+  .citrusZoetis__hero--text {
+    min-width: 250px;
+  }
+
+  .citrusZoetis__hero--text h1{
+    padding-bottom: 15px;
+  }
 }
 
 
