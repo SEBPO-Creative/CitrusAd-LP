@@ -881,7 +881,8 @@ button.citrusZoetis__tab_item img {
 
 @media screen and (max-width:1257px) {
   .citrusZoetis-safety--info {
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /* End Safety Infomation Style */
