@@ -186,15 +186,15 @@ body {
   color: #009FC2;
   font-size: 35px;
   line-height: 35px;
-  font-family: "PetcoCircular-Black", arial !important;
+  font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 700;
   padding: 0 0 40px;
 }
 
 .citrusZoetis__hero--text p {
-  padding: 15px 0 0;
+  padding: 14px 0 0;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 12px;
   font-family: "PetcoCircular-Regular", arial !important;
 }
 
@@ -464,6 +464,10 @@ body {
   .citrusZoetis__card-body p {
     margin-top: 10px;
     width: 231px;
+  }
+
+  .citrusZoetis_disclaimer{
+    margin-top: 17px;
   }
 
 }
@@ -789,6 +793,7 @@ button.citrusZoetis__tab_item img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 25px;
 }
 
 .citrusZoetis__videoText h2 {
