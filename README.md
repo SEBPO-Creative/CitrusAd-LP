@@ -7,3 +7,4 @@
 - [PurinProPlan]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1237-Purina-Pro-Plan/>
 - [SimparicaTrio]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1819_Zoetis-SimparicaTrio_GoldBP/>
 - [ZoetisApoquel]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1820_Zoetis_Apoquel_SilverBP/>
+- [Petmate-ChuckIt]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1118_Petmate-ChuckIt_SilverBP/>
