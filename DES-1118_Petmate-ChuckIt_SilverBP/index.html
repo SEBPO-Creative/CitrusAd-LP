@@ -504,6 +504,8 @@
           slideToPrev();
         }
         step = 100 / totalSlides;
+        document.querySelector(".citrus_petmate_carousel-indicators span.active").classList.remove("active");
+        e.target.classList.add("active");
       })
     });
 
