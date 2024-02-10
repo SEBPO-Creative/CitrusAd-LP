@@ -305,7 +305,6 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-image: url("prev.svg");
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -322,7 +321,6 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-image: url("next.svg");
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -2344,16 +2342,5 @@
       }
     }
     element.className = arr1.join(" ");
-  }
-
-  // Add active class to the current button
-  var dogBtnContainer = document.getElementById("citrus_vetdiet_tab__btn");
-  var dogBestbtns = dogBtnContainer.getElementsByClassName("citrus_vetdiet_tab_btn_single");
-  for (var i = 0; i < dogBestbtns.length; i++) {
-    dogBestbtns[i].addEventListener("click", function () {
-      var current = document.getElementsByClassName("citrus_vetdiet_tab_btn_single_active");
-      current[0].className = current[0].className.replace(" citrus_vetdiet_tab_btn_single_active", "");
-      this.className += " citrus_vetdiet_tab_btn_single_active";
-    });
   }
 </script>
