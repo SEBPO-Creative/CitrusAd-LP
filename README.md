@@ -8,3 +8,5 @@
 - [SimparicaTrio]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1819_Zoetis-SimparicaTrio_GoldBP/>
 - [ZoetisApoquel]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1820_Zoetis_Apoquel_SilverBP/>
 - [Petmate-ChuckIt]<https://sebpo-creative.github.io/CitrusAd-LP/DES-1118_Petmate-ChuckIt_SilverBP/>
+
+- [Sherpa]<https://sebpo-creative.github.io/CitrusAd-LP/DES-2197_Worldwise_Sherpa_Spotlight-BP/>
