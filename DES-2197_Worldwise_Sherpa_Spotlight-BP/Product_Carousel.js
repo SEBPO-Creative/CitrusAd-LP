@@ -3,7 +3,7 @@
    --------------------------*/
 // tab Carousel js
 // initialize product scroller
-advanceArrows("PurinaONE-CatFood-product");
+advanceArrows("citrusSherpa__CatFood-product");
 function advanceArrows(idx) {
   var splideElement = "#" + idx;
   var splideDefaultOptions = {
@@ -56,12 +56,12 @@ function advanceArrows(idx) {
 /* ************************************************************************************** */
 //for tab sweater & loader added
 document.addEventListener("DOMContentLoaded", function () {
-  filterProducts("PurinaONE-CatFood-product");
+  filterProducts("citrusSherpa__CatFood-product");
 });
 // for dog filter function
 function filterProducts(c) {
   var x, i;
-  x = document.getElementsByClassName("worldwiseSherpa__Product");
+  x = document.getElementsByClassName("citrusSherpa__Product");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     RemoveClass(x[i], "citrusTabShow");
@@ -91,26 +91,3 @@ function RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-/*
-// Add active class to the current button (highlight it)
-document.addEventListener("DOMContentLoaded", function () {
-  // for dog active class filter
-  var dogBtnContainer = document.getElementById("citrusPurinaONETabId");
-  var dogBtns = dogBtnContainer.getElementsByClassName(
-    "worldwiseSherpa__tab_item"
-  );
-  addActiveClass(dogBtns, "worldwiseSherpa__active_tab");
-});
-function addActiveClass(element, activeClass) {
-  for (var i = 0; i < element.length; i++) {
-    element[i].addEventListener("click", function () {
-      var current = document.getElementsByClassName(activeClass);
-      current[0].className = current[0].className.replace(
-        " " + activeClass,
-        ""
-      );
-      this.className += " " + activeClass;
-    });
-  }
-} //for Dog best seller tab switcher
-*/
