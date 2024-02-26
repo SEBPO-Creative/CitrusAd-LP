@@ -77,7 +77,7 @@
 
   .citrusTrio__carousel2 .citrusTrio__carousel--text h2,
   p {
-    text-align: left;
+    text-align: center;
     padding: 0 0 10px;
   }
 
@@ -85,7 +85,7 @@
     .citrusTrio__carousel--text
     .citrusTrio__carousel--disclaimer {
     margin: 0 !important;
-    text-align: left;
+    text-align: center;
   }
 
   .citrusTrio__carousel--text p {
@@ -100,9 +100,6 @@
 @media screen and (max-width: 1023px) {
   /* Box cta reverse to underline */
   .citrusTrio-cta__box--color {
-    width: auto;
-    height: auto;
-    background: transparent;
     justify-content: flex-start;
   }
 
@@ -111,10 +108,17 @@
     text-align: left;
     text-decoration: underline;
     text-transform: CAPITALIZE;
+    width: auto;
+    height: auto;
+    background: transparent;
   }
 
   .citrusTrio-cta__box--color a:hover {
     color: #001952;
+  }
+
+  .citrusTrio__carousel2 .citrusTrio-cta__box--color{
+    justify-content: center;
   }
 
   /* Content 4up & Content 6up CTA */

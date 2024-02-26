@@ -75,7 +75,7 @@ h3 {
 /* CTA Box with background color */
 .citrusStylesSE-cta__box--color {
   width: 212px;
-  padding: 17px;
+  padding: 17px 0;
   border-radius: 5px;
   background: #001952;
   margin: 0 auto;
@@ -103,13 +103,7 @@ h3 {
 
 /* CTA Box with background color */
 .citrusTrio-cta__box--color {
-  width: 211px;
-  height: 56px;
-  border-radius: 5px;
-  background: #001952;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .citrusTrio-cta__box--color a {
@@ -120,6 +114,13 @@ h3 {
   font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 700;
   line-height: normal;
+  width: 211px;
+  height: 56px;
+  border-radius: 5px;
+  background: #001952;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .citrusTrio-cta__box--color a:hover {
