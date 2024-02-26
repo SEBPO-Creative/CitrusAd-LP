@@ -16,17 +16,17 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   /* Hero Carousel */
-  .citrusTrio__carousel2 .citrusTrio__carousel--text h2,
+  /* .citrusTrio__carousel2 .citrusTrio__carousel--text h2,
   p {
     text-align: left;
-  }
+  } */
 
-  .citrusTrio__carousel2
+  /* .citrusTrio__carousel2
     .citrusTrio__carousel--text
     .citrusTrio__carousel--disclaimer {
     margin: 0 !important;
     text-align: left;
-  }
+  } */
 
   .citrusTrio__carousel--text h2 {
     padding: 0 0 10px !important;
@@ -221,6 +221,7 @@
     .citrusTrio__carousel--text
     .citrusTrio-cta__box--color {
     margin: 0;
+    width: max-content;
   }
 
   .citrusTrio__carousel--shots img {

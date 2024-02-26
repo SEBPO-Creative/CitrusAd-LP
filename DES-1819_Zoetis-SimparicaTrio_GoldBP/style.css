@@ -75,7 +75,8 @@ h3 {
 /* CTA Box with background color */
 .citrusStylesSE-cta__box--color {
   width: 212px;
-  padding: 17px 0;
+  /* padding: 17px 0; */
+  height: 56px;
   border-radius: 5px;
   background: #001952;
   margin: 0 auto;
@@ -89,6 +90,11 @@ h3 {
   text-transform: uppercase;
   font-family: "PetcoCircular-Bold", arial !important;
   font-weight: 700;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .citrusTrio__sectionTitle {
@@ -192,6 +198,9 @@ p {
 }
 
 .citrusTrio__carousel2 .citrusTrio__carousel--text .citrusTrio-cta__box--color {
+  margin: 0 auto;
+}
+.citrusTrio__carousel2 .citrusTrio-cta__box--color a {
   margin: 0 auto;
 }
 
@@ -342,9 +351,9 @@ p {
   font-size: 12px !important;
 }
 
-.citrusTrio__sectionCTA--shop-all a {
+/* .citrusTrio__sectionCTA--shop-all a {
   margin: 28px 15px 10px;
-}
+} */
 
 /* Content 6up */
 .citrusTrio__article-6up .citrusTrio__article--container {
